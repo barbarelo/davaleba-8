@@ -1,0 +1,50 @@
+.sakura{
+    position: relative;
+    top: 200px;
+    animation-name: sakura;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    height: 200px;
+    width: 300px;
+}
+@keyframes sakura{
+    0%{
+    left: 0;
+    }
+    50%{
+    left: 50%;
+    }
+    100%{
+    left: 100%;
+    }
+}
+.wiwvi{
+    position: relative;
+    top: 200px;
+    animation-name: wiwvi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    height: 200px;
+    width: 300px;
+}
+@keyframes wiwvi{
+    0%{
+    left: 0;
+    }
+    50%{
+    left: 50%;
+    }
+    100%{
+    left: 100%;
+    }
+}
+body{
+    background-image: url(images/winter.png);
+    height: 100%;
+    width: 1000px;
+    background-color: grey;
+}
